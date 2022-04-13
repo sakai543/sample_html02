@@ -42,6 +42,7 @@ textarea{
 .sentence{
     display: flex;
     justify-content: flex-start;
+    padding-left: 15px;
 }
 span{
     color: gray;

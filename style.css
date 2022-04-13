@@ -30,6 +30,21 @@ textarea{
     border-width: 1px;
     border-color: #eee;
     border-bottom-style: solid;
+    display: flex;
+}
+.posted > img{
+    width: 70px;
+    height: 70px;
+    border-radius:50%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.sentence{
+    display: flex;
+    justify-content: flex-start;
+}
+span{
+    color: gray;
 }
 form{
     display: flex;

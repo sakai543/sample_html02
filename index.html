@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>トゥイッター</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="icon">
+            <img src="img/icon/Logo_blue.svg" alt="Twitter_icon">
+        </div>
+        <ul>
+            <li><img src="img/icon/Logo_home.svg" alt="home">ホーム</li>
+            <li><img src="img/icon/Logo_kensaku.svg" alt="kensaku">話題を検索</li>
+            <li><img src="img/icon/Logo_tuchi.svg" alt="tsuchi">通知</li>
+            <li><img src="img/icon/Logo_mail.svg" alt="message">メッセージ</li>
+            <li><img src="img/icon/Logo_bookmark.svg" alt="bookmark">ブックマーク</li>
+            <li><img src="img/icon/Logo_list.svg" alt="list">リスト</li>
+            <li><img src="img/icon/Logo_profile.svg" alt="profile">プロフィール</li>
+        </ul>
+        <div class="tweet">
+            <img src="img/icon/Logo_tweet.svg" alt="tweet">
+        </div>
+    </nav>
+    <main>
+        <article class="post">
+            <form method="POST" action="<?php print($_SERVER['PHP_SELF']) ?>">
+                <textarea name="contents" class="contents" cols="50" rows="10">
+                </textarea>
+                <input type="submit"  class = "tweets" name="btn1" value="投稿する">
+                </form>    
+            </form>
+        </article>
+        <article class="posted">おはよう！</article>
+        <article class="posted">おはよう！</article>
+        <article class="posted">おはよう！</article>
+        <article class="posted">おはよう！</article>
+        <article class="posted">おはよう！</article>
+        <article class="posted">おはよう！</article>
+        <article class="posted">おはよう！</article>
+        <article class="posted">おはよう！</article>
+        <article class="posted">おはよう！</article>
+        <article class="posted">おはよう！</article>
+        <article class="posted">おはよう！</article>
+        <article class="posted">おはよう！</article>
+        <article class="posted">おはよう！</article>
+        <article class="posted">おはよう！</article>
+        <article class="posted">おはよう！</article>
+        <article class="posted">おはよう！</article>
+        <article class="posted">おはよう！</article>
+        <article class="posted">おはよう！</article>
+    </main>
+    <aside>
+        <div class="search">
+            <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+            <form method="get" action="#" class="search_container">
+                <input type="text" size="25" placeholder="キーワード検索">
+                <input type="submit" value="&#xf002">
+            </form>
+        </div>
+        <article class="news">
+            <h1>news</h1>
+            <article class="day-news">
+                <h2>4月1日</h2>
+                <p>あんなことがあった</p>
+            </article>
+            <article class="day-news">
+                <h2>4月2日</h2>
+                <p>こんなことがあった</p>
+            </article>
+            <article class="day-news">
+                <h2>4月3日</h2>
+                <p>そんなこともあった</p>
+            </article>
+        </article>
+        <footer>
+            <div class="side-footer">
+                @トゥイッター
+            </div>
+        </footer>
+    </aside>
+</body>
+</html>

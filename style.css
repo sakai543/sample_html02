@@ -1,0 +1,173 @@
+body{
+    margin: 0 auto;
+    display: flex;
+    min-height: 100vh;
+    /* #1DA1F2 */
+}
+/* main */
+main{
+    flex: 50%;
+    border-width: 1px;
+    border-color: #eee;
+    border-right-style: solid;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll; 
+}
+.post{
+    flex: 1;
+}
+textarea{
+    border-style: none;
+    color: white;
+}
+.tweets{
+    background-color: #1DA1F2;
+    border-style: none;
+}
+.posted{
+    flex: 1;
+    border-width: 1px;
+    border-color: #eee;
+    border-bottom-style: solid;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.contents{
+    flex: 1;
+}
+
+
+/* nav */
+nav{
+    flex: 20%;
+    display: flex;
+    flex-direction: column;
+    box-sizing:border-box;
+    border-width: 1px;
+    border-color: #eee;
+    border-right-style: solid;
+}
+.icon{
+    width: 50px;
+    height: 60px;
+    padding-left: 0.7rem;
+    padding-top: 0.7rem;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+}
+li{
+    height: 50px;
+}
+li > img{
+    width: 30px;
+    height: 30px;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 0.7rem;
+}
+/* li > p{
+    padding-bottom: 0.3rem;
+} */
+.tweet{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+    margin-bottom: .5rem;
+    background-color: #1DA1F2;
+}
+.tweet > img{
+    padding-top: 0.6rem;
+    width: 50px;
+    height: 50px;
+    padding-left: 0.7rem;
+}
+/* aside */
+aside{
+    flex: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.search{
+    height: 100px;
+    padding-top: 1rem;
+    padding-left: .5rem;
+    margin: 0 auto;
+}
+.search_container{
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    height: 2.2em;
+    width: 250px;
+    overflow: hidden;
+    background: #1DA1F2;
+  }
+  .search_container input[type="text"]{
+    border: none;
+    height: 2.0em;
+    background: #1DA1F2;
+  }
+  .search_container input[type="text"]:focus {
+    outline: 0;
+  }
+  .search_container input[type="submit"]{
+    cursor: pointer;
+    font-family: FontAwesome;
+    font-size: 1.3em;
+    border: none;
+    background: none;
+    color: #fff;
+    position: absolute;
+    height: 2.5em;
+    right: 8px;
+    top: -10px;
+    outline : none;
+  }
+  .search_container ::-webkit-input-placeholder {
+    color: #fff;
+  }
+
+.news {
+    flex: 1;
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+.news > h1,
+.day-news {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.day-news {
+    background-color: white;
+}
+
+.day-news > h2,
+.day-news > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
+footer{
+    font-size: 1rem;
+    height: 50px;
+    color: rgb(121, 121, 121);
+    display: flex;
+    flex-direction: column;
+}
+.side-footer{
+    margin-top: auto;
+}
+
